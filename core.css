@@ -1,6 +1,7 @@
 /* General */
 
 body {
+	background-color: #b0b0b0;
 	background: url(''); top left;
 	font-family: sans-serif;
 	margin: 0;
@@ -8,6 +9,13 @@ body {
 }
 
 /* Utility */
+
+.special {
+	display: inline-block;
+	padding: 10px;
+	color: #0099ff;
+	box-shadow: 0 0 3px #a0a0a0;
+}
 
 .container {
 	margin: 0 auto;
@@ -36,5 +44,40 @@ body {
 
 .std_heading_6 {
 	font-size: 30px;
+}
+
+.std_btn_big {
+	border-radius: 5px;
+	background-color: #a0a0a0;
+	margin: 15px 0 15px 0;
+	box-shadow: 0 0 3px #a0a0a0;
+	text-align: center;
+	height: 150px;
+	width: 350px;
+}
+
+.btn_medium {
+	border-radius: 5px;
+	background-color: #a0a0a0;
+	margin: 15px 0 15px 0;
+	box-shadow: 0 0 3px #a0a0a0;
+	text-align: center;
+	height: 100px;
+	width: 250px;
+}
+
+.btn_small {
+	border-radius: 5px;
+	background-color: #a0a0a0;
+	margin: 15px 0 15px 0;
+	box-shadow: 0 0 3px #a0a0a0;
+	text-align: center;
+	height: 50px;
+	width: 150px;
+}
+
+.std_btn_big a:hover {
+	background: #808080;
+	box-shadow: 0 0 3px #808080;
 }
 

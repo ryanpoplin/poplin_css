@@ -1,0 +1,40 @@
+/* General */
+
+body {
+	background: url(''); top left;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* Utility */
+
+.container {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.std_heading_1 {
+	font-size: 55px;
+}
+
+.std_heading_2 {
+	font-size: 50px;
+}
+
+.std_heading_3 {
+	font-size: 45px;
+}
+
+.std_heading_4 {
+	font-size: 40px;
+}
+
+.std_heading_5 {
+	font-size: 35px;
+}
+
+.std_heading_6 {
+	font-size: 30px;
+}
+
